@@ -1,0 +1,66 @@
+<?php 
+$a = "й"; $b = "Й"; include("zam_.php"); 
+$a = "ц"; $b = "Ц"; include("zam_.php"); 
+$a = "у"; $b = "У"; include("zam_.php"); 
+$a = "к"; $b = "К"; include("zam_.php"); 
+$a = "е"; $b = "Е"; include("zam_.php"); 
+$a = "н"; $b = "Н"; include("zam_.php"); 
+$a = "г"; $b = "Г"; include("zam_.php"); 
+$a = "ш"; $b = "Ш"; include("zam_.php"); 
+$a = "щ"; $b = "Щ"; include("zam_.php"); 
+$a = "з"; $b = "З"; include("zam_.php"); 
+$a = "х"; $b = "Х"; include("zam_.php"); 
+$a = "ї"; $b = "Ї"; include("zam_.php"); 
+$a = "ф"; $b = "Ф"; include("zam_.php"); 
+$a = "і"; $b = "І"; include("zam_.php"); 
+$a = "в"; $b = "В"; include("zam_.php"); 
+$a = "а"; $b = "А"; include("zam_.php"); 
+$a = "п"; $b = "П"; include("zam_.php"); 
+$a = "р"; $b = "Р"; include("zam_.php"); 
+$a = "о"; $b = "О"; include("zam_.php"); 
+$a = "л"; $b = "Л"; include("zam_.php"); 
+$a = "д"; $b = "Д"; include("zam_.php"); 
+$a = "ж"; $b = "Ж"; include("zam_.php"); 
+$a = "є"; $b = "Є"; include("zam_.php"); 
+$a = "я"; $b = "Я"; include("zam_.php"); 
+$a = "ч"; $b = "Ч"; include("zam_.php"); 
+$a = "с"; $b = "С"; include("zam_.php"); 
+$a = "м"; $b = "М"; include("zam_.php"); 
+$a = "и"; $b = "И"; include("zam_.php"); 
+$a = "т"; $b = "Т"; include("zam_.php"); 
+$a = "ь"; $b = "Ь"; include("zam_.php"); 
+$a = "б"; $b = "Б"; include("zam_.php"); 
+$a = "ю"; $b = "Ю"; include("zam_.php"); 
+$a = "ё"; $b = "Ё"; include("zam_.php"); 
+$a = "э"; $b = "Э"; include("zam_.php"); 
+$a = "ы"; $b = "Ы"; include("zam_.php"); 
+
+
+
+$a = "q"; $b = "Q"; include("zam_.php"); 
+$a = "w"; $b = "W"; include("zam_.php"); 
+$a = "e"; $b = "E"; include("zam_.php"); 
+$a = "r"; $b = "R"; include("zam_.php"); 
+$a = "t"; $b = "T"; include("zam_.php"); 
+$a = "y"; $b = "Y"; include("zam_.php"); 
+$a = "u"; $b = "U"; include("zam_.php"); 
+$a = "i"; $b = "I"; include("zam_.php"); 
+$a = "o"; $b = "O"; include("zam_.php"); 
+$a = "p"; $b = "P"; include("zam_.php"); 
+$a = "a"; $b = "A"; include("zam_.php"); 
+$a = "s"; $b = "S"; include("zam_.php"); 
+$a = "d"; $b = "D"; include("zam_.php"); 
+$a = "f"; $b = "F"; include("zam_.php"); 
+$a = "g"; $b = "G"; include("zam_.php"); 
+$a = "h"; $b = "H"; include("zam_.php"); 
+$a = "j"; $b = "J"; include("zam_.php"); 
+$a = "k"; $b = "K"; include("zam_.php"); 
+$a = "l"; $b = "L"; include("zam_.php"); 
+$a = "z"; $b = "Z"; include("zam_.php"); 
+$a = "x"; $b = "X"; include("zam_.php"); 
+$a = "c"; $b = "C"; include("zam_.php"); 
+$a = "v"; $b = "V"; include("zam_.php"); 
+$a = "b"; $b = "B"; include("zam_.php"); 
+$a = "n"; $b = "N"; include("zam_.php"); 
+$a = "m"; $b = "M"; include("zam_.php"); 
+?>

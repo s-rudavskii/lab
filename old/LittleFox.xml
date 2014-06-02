@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<setup source="" next="" checkCount="0" autoLoadTime="1" taskTime="0">
+<book toolHide="0" fullScreen="false" hideTitle="false" hideObjects="false" margin="10" zoomMin="0.5" zoomMax="2" zoomStep="0.1">
+<content title="" >
+      <item text="" color="FFFFFF" lMargin="220" size="40"/>
+      <item page="1" text="Обкладинка" color="000066" lMargin="0" size="35" />
+      <item page="4" text="Зміст" color="000066" lMargin="0" size="35" />
+      <item page="" text="1. Здрастуй, Музико!" color="000066" lMargin="0" size="35" />
+      <item page="" text="2. Урок музичного мистецтва" color="000066" lMargin="0" size="35" />
+      <item page="" text="3. Вчимося слухати музику" color="000066" lMargin="0" size="35" />
+      <item page="" text="4. Щоби правильно співати" color="000066" lMargin="0" size="35" />
+      <item page="" text="5. Хто створює музику" color="000066" lMargin="0" size="35" />
+      <item page="" text="6. Музиканти-чаклуни" color="000066" lMargin="0" size="35" />
+      <item page="" text="7. Музична стежинка" color="000066" lMargin="0" size="35" />
+      <item page="" text="8. (резервний)" color="000066" lMargin="0" size="35" />
+      <item page="" text="9. Осіння мозаїка" color="000066" lMargin="0" size="35" />
+      <item page="" text="10. На музику перетворю" color="000066" lMargin="0" size="35" />
+      <item page="" text="11. Голосно — тихо" color="000066" lMargin="0" size="35" />
+      <item page="" text="12. Довгі та короткі звуки" color="000066" lMargin="0" size="35" />
+      <item page="" text="13. Високо — низько" color="000066" lMargin="0" size="35" />
+      <item page="" text="14. Музична хатка" color="000066" lMargin="0" size="35" />
+      <item page="" text="15. Забарвлення звуків" color="000066" lMargin="0" size="35" />
+      <item page="" text="16. (резервний)" color="000066" lMargin="0" size="35" />
+      <item page="" text="17. Музика і ти" color="000066" lMargin="0" size="35" />
+      <item page="" text="18. Давні друзі наші — пісні, танці, марші" color="000066" lMargin="0" size="35" />
+      <item page="" text="19. Раз, два — кроком руш!" color="000066" lMargin="0" size="35" />
+      <item page="" text="20. Танцювальна музика, хоровод" color="000066" lMargin="0" size="35" />
+      <item page="" text="21. Царина музики та руху" color="000066" lMargin="0" size="35" />
+      <item page="" text="22. Залетіли в клас пісні" color="000066" lMargin="0" size="35" />
+      <item page="" text="23. Співуча, чудова пісенна розмова" color="000066" lMargin="0" size="35" />
+      <item page="" text="24. Царина музики та слова" color="000066" lMargin="0" size="35" />
+      <item page="" text="25. Весняні мелодії" color="000066" lMargin="0" size="35" />
+      <item page="" text="26. (резервний урок)" color="000066" lMargin="0" size="35" />
+      <item page="" text="27. Музика нашого краю" color="000066" lMargin="0" size="35" />
+      <item page="" text="28. Дивовижні інструменти" color="000066" lMargin="0" size="35" />
+      <item page="" text="29. Про барабани і труби" color="000066" lMargin="0" size="35" />
+      <item page="" text="30. Про скрипку та її сім’ю" color="000066" lMargin="0" size="35" />
+      <item page="" text="31. Рояль і його друзі" color="000066" lMargin="0" size="35" />
+      <item page="" text="32. Інструменти збираються разом" color="000066" lMargin="0" size="35" />
+      <item page="" text="33. Музика завжди навколо" color="000066" lMargin="0" size="35" />
+      <item page="" text="34. (підсумковий)" color="000066" lMargin="0" size="35" />
+      <item page="" text="35. (резервний)" color="000066" lMargin="0" size="35" />
+</content>
+</book>
+</setup>
+</data>
