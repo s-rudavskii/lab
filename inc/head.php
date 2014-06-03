@@ -12,14 +12,28 @@
 <body>
 <div class="body-box">
   <div class="left-menu">
-    <h1>Personal<span>Lab</span></h1>
+    <h1><a href="./">Personal<span>Lab</span></a></h1>
     <div class="nav">
-      <a class="item">Домашня</a>
-      <a class="item">Зміст</a>
-      <a class="item">Анотація</a>
+      <a href="./" class="item">Домашня</a>
+      <a href="./anot" class="item">Анотація</a>
+      <a href="./zmist" class="item">Зміст</a>
     </div>
   </div
   ><div class="right-content">
-
+    <?php
+    if(isset($_GET[0]))
+    switch($_GET[0]){
+      case 'zmist':
+        include('inc/zmist.php');
+        break;
+      default:
+        echo '404 Not Found';
+        break;
+    }
+    else {
+    ?>
+    <?php
+    }
+    ?>
   </div>
 </div>

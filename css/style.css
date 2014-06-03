@@ -1,4 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Kelly+Slab&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic);
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
 
 .body-box {
     position: absolute;
@@ -11,24 +20,29 @@
 }
 
 .left-menu {
-    width: 23%;
+    width: 24%;
     display: inline-block;
     min-height: 100%;
     height: 100%;
     background: #474747 url('../img/wild_oliva.png') top repeat;
     color: #ffffff;
+    vertical-align: top;
 }
 
 .left-menu h1 {
     text-align: center;
     font-family: 'Kelly Slab', arial, helvetica, verdana, sans-serif;
-    margin-top: 65px;
+    margin-top: 35px;
     font-size: 48px;
 }
 
 .left-menu h1 span {
-    color: #2894f6;
     margin-left: 10px;
+    color: #83f63d;
+}
+
+.left-menu h1 a {
+    color: #FFFFFF;
 }
 
 .left-menu .nav {
@@ -40,19 +54,56 @@
 .left-menu .nav .item {
     font-size: 34px;
     display: block;
-    cursor: pointer;
-    color: #2894f6;
+    color: #FFFFFF;
     padding: 20px 0;
     font-family: 'Kelly Slab', arial, helvetica, verdana, sans-serif;
 }
 
 .left-menu .nav .item:hover {
-    color: #ffffff;
-    text-decoration: none;
-    background: rgba(200, 200, 200, 0.2);;
+    color: #83f63d;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .right-content {
     display: inline-block;
-    width: 23%;
+    width: 76%;
+    vertical-align: top;
+    color: #474747;
+}
+
+.right-content h1 {
+    margin: 35px 0 35px 25px;
+    font-family: Comfortaa, arial, helvetica, verdana, sans-serif;
+    font-size: 49px;
+}
+
+.right-content h1 span {
+    color: #3180f6;
+}
+
+.right-content h1 small {
+    font-family: arial, helvetica, verdana, sans-serif;
+    font-size: 14px;
+    display: block;
+    margin-top: 13px;
+}
+
+.right-content .left25 {
+    margin-left: 25px;
+}
+
+.right-content .top25 {
+    margin-top: 25px;
+}
+
+.right-content .right25 {
+    margin-right: 25px;
+}
+
+.right-content .right35 {
+    margin-right: 35px;
+}
+
+.right-content textarea {
+    width: 100%;
 }
