@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Kelly+Slab&subset=latin,cyrillic);
+
+.body-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 1200px;
+}
+
+.left-menu {
+    width: 23%;
+    display: inline-block;
+    min-height: 100%;
+    height: 100%;
+    background: #474747 url('../img/wild_oliva.png') top repeat;
+    color: #ffffff;
+}
+
+.left-menu h1 {
+    text-align: center;
+    font-family: 'Kelly Slab', arial, helvetica, verdana, sans-serif;
+    margin-top: 65px;
+    font-size: 48px;
+}
+
+.left-menu h1 span {
+    color: #2894f6;
+    margin-left: 10px;
+}
+
+.left-menu .nav {
+    margin: 40px auto;
+    text-align: center;
+    display: block;
+}
+
+.left-menu .nav .item {
+    font-size: 34px;
+    display: block;
+    cursor: pointer;
+    color: #2894f6;
+    padding: 20px 0;
+    font-family: 'Kelly Slab', arial, helvetica, verdana, sans-serif;
+}
+
+.left-menu .nav .item:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background: rgba(200, 200, 200, 0.2);;
+}
+
+.right-content {
+    display: inline-block;
+    width: 23%;
+}
