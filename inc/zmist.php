@@ -10,6 +10,6 @@
   <button type="button" class="btn btn-link">Завантажити XML</button>
 </div>
 <div class="left25 top25">
-  <textarea id="sorse" cols="30" rows="10"></textarea>
+  <textarea id="source" cols="30" rows="10"></textarea>
   <textarea id="target" cols="30" rows="10"></textarea>
 </div>
