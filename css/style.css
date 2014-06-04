@@ -1,6 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Kelly+Slab&subset=latin,cyrillic);
 @import url(http://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic);
 
+body {
+    margin: 0;
+    padding: 0;
+    background: #e6e6e6 url('../img/light_wool.png') top repeat;
+}
+
 a {
     cursor: pointer;
 }
