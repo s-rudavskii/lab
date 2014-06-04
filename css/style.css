@@ -29,6 +29,11 @@ a:hover {
     vertical-align: top;
 }
 
+.left-menu ::selection {
+    background-color: #34c027!important;
+    color: #ffffff;
+}
+
 .left-menu h1 {
     text-align: center;
     font-family: 'Kelly Slab', arial, helvetica, verdana, sans-serif;
@@ -71,6 +76,11 @@ a:hover {
     color: #474747;
 }
 
+.right-content ::selection {
+    background-color: #3180f6!important;
+    color: #ffffff;
+}
+
 .right-content h1 {
     margin: 35px 0 35px 25px;
     font-family: Comfortaa, arial, helvetica, verdana, sans-serif;
@@ -100,10 +110,8 @@ a:hover {
     margin-right: 25px;
 }
 
-.right-content .right35 {
-    margin-right: 35px;
-}
-
 .right-content textarea {
-    width: 100%;
+    width: 48%;
+    display: inline-block;
+    min-height: 350px;
 }
