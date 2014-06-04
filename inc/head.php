@@ -24,10 +24,10 @@
     if(isset($_GET[0]))
     switch($_GET[0]){
       case 'zmist':
-        include('inc/zmist.php');
+        include('./inc/zmist.php');
         break;
       default:
-        echo '404 Not Found';
+        include('./inc/404.php');
         break;
     }
     else {
