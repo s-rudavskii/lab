@@ -1,2 +1,2 @@
 RewriteEngine On
- RewriteRule    ^([а-яА-ЯіІїЇєЄA-Za-z0-9-+_%*?]+)/?$    index.php?0=$1     [L]
+ RewriteRule    ^([A-Za-z0-9-+_%*?]+)/?$    index.php?0=$1     [L]
