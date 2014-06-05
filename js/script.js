@@ -32,23 +32,14 @@ function z_rep(){
 function z_xml(){
   var target = $('#target').val();
   var title = $('#title').val();
-  var xml = '<?xml version="1.0" encoding="utf-8" ?>' +
-    '<data>' +
-    '<setup source="" next="" checkCount="0" autoLoadTime="1" taskTime="0">' +
-    '  <book toolHide="0" fullScreen="false" hideTitle="false" hideObjects="false" margin="10" zoomMin="0.5" zoomMax="2" zoomStep="0.1">' +
-    '    <content title="' + title + '" >' +
-    '      <item text="" color="FFFFFF" lMargin="220" size="40"/>' +
-    '      <item page="1" text="Обкладинка" color="000066" lMargin="0" size="35" />' +
-    '      <item page="4" text="Зміст" color="000066" lMargin="0" size="35" />';
-  target.forEach(function(string){
-    xml = xml + '\n      <item page="" text="' + string +
-      '" color="000066" lMargin="0" size="35" />';
+  $.post('./inc/xml.php',{'xml':target,'title':title},function(){
+    $('#download').show();
+    setTimeout(unDownload,5000);
   });
-  xml = xml + '\n    </content>' +
-    '  </book>' +
-    '</setup>' +
-    '</data>';
+}
 
+function unDownload(){
+  $('#download').hide();
 }
 
 function un(){
