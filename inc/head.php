@@ -19,6 +19,9 @@
       <a href="./" class="item">Домашня</a>
       <a href="./zmist" class="item">Зміст</a>
     </div>
+    <div class="copyright">
+      &copy; 2012-<?php echo date('Y'); ?> Mesija
+    </div>
   </div
   ><div class="right-content">
     <?php
@@ -33,6 +36,20 @@
     }
     else {
     ?>
+      <h1>Вітаємо у Personal<span>Lab</span>
+        <small>Це персональна лабораторія Слави Рудавського</small>
+      </h1>
+      <div class="top25 left25" style="font-size: 22px; font-family: Comfortaa, arial, helvetica, verdana, sans-serif;">
+        <ul>
+          <li style=" line-height: 35px;">Якщо ви незнаєте хто такий Слава Рудавський</li>
+          <li style=" line-height: 35px;">Якщо ви незнаєте для чого цей сайт</li>
+          <li style=" line-height: 35px;">Якщо ви попали сюди випадково або знайшли цей сайт в гуглі<br/>(такого неможе бути, але вдруг)</li>
+          <li style=" line-height: 35px;">Якщо ви робот</li>
+          <li style=" line-height: 35px;">Якщо ви інопланетянин</li>
+          <li style=" line-height: 35px;">Якщо ви мій сусід (не дай бог)</li>
+        </ul>
+        Прохання залишити цей сайт =)
+      </div>
     <?php
     }
     ?>
