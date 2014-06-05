@@ -16,7 +16,7 @@
   <div class="left-menu">
     <h1><a href="./">Personal<span>Lab</span></a></h1>
     <div class="nav">
-      <a href="./404" class="item">Домашня</a>
+      <a href="./" class="item">Домашня</a>
       <a href="./zmist" class="item">Зміст</a>
     </div>
   </div
