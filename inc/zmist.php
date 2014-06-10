@@ -16,9 +16,7 @@
   <button type="button" id="copy" style="width: 100px;" class="btn btn-primary"
           title="Копіювати у буфер обміну">
     В буфер</button>
-  </div>
-  <a href="./inc/LittleFox.xml" id="download" download><button class="btn btn-link" type="button" onclick="z_xml()"
-                                            title="Спеціально для маленької Лисички ^_^">Завантажити XML</button></a>
+  <a href="./inc/LittleFox.xml" id="download" download><button class="btn btn-link" type="button" onclick="z_xml()"                                  title="Спеціально для маленької Лисички ^_^">Завантажити XML</button></a>
 </div>
 <div class="left25 top25">
   <textarea id="source" cols="30" rows="10"></textarea>
