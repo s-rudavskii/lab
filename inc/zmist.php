@@ -16,7 +16,15 @@
   <button type="button" id="copy" style="width: 100px;" class="btn btn-primary"
           title="Копіювати у буфер обміну">
     В буфер</button>
-  <a href="./inc/LittleFox.xml" id="download" download><button class="btn btn-link" type="button" onclick="z_xml()"                                  title="Спеціально для маленької Лисички ^_^">Завантажити XML</button></a>
+  <div class="input-append" style="margin-left: 5px; margin-top: 10px;">
+      <input class="span2" id="title" type="text"
+             title="Спеціально для маленької Лисички ^_^"
+             placeholder="Назва книги">
+      <button class="btn" type="button" onclick="z_xml()"
+              title="Спеціально для маленької Лисички ^_^">XML</button>
+  </div>
+  <a href="./inc/LittleFox.xml" id="download" style="display: none;" download><button class="btn btn-link" type="button"
+                                              title="Спеціально для маленької Лисички ^_^">Завантажити</button></a>                                  title="Спеціально для маленької Лисички ^_^">Завантажити XML</button></a>
 </div>
 <div class="left25 top25">
   <textarea id="source" cols="30" rows="10"></textarea>
