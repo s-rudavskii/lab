@@ -32,7 +32,7 @@ function z_rep(){
 function z_xml(){
   var target = $('#target').val();
   var title = $('#title').val();
-  $.post('./inc/xml.php',{'xml':target,'title':title},function(){
+  $.post('./inc/xml.php',{xml:target,title:title},function(){
     $('#download').show();
     setTimeout(unDownload,5000);
     });
