@@ -18,13 +18,14 @@
     В буфер</button>
   <div class="input-append" style="margin-left: 5px; margin-top: 10px;">
       <input class="span2" id="title" type="text"
-             title="Спеціально для маленької Лисички ^_^"
-             placeholder="Назва книги">
-      <button class="btn" type="button" onclick="z_xml()"
-              title="Спеціально для маленької Лисички ^_^">XML</button>
+           placeholder="Назва книги">
+      <input class="span1" id="start" type="text" style="border-top-left-radius: 0; border-bottom-left-radius: 0; border-left: 0;"
+             placeholder="Старт">
+      <input class="span1" id="pag" type="text" style="border-top-left-radius: 0; border-bottom-left-radius: 0; border-left: 0;"
+             placeholder="Крок">
+      <button class="btn" type="button" onclick="z_xml()">XML</button>
   </div>
-  <a href="./inc/LittleFox.xml" id="download" style="display: none;" download><button class="btn btn-link" type="button"
-                                              title="Спеціально для маленької Лисички ^_^">Завантажити</button></a>                                  title="Спеціально для маленької Лисички ^_^">Завантажити XML</button></a>
+  <a href="./inc/LittleFox.xml" id="download" style="display: none;" download><button class="btn btn-link" type="button">Завантажити</button></a>
 </div>
 <div class="left25 top25">
   <textarea id="source" cols="30" rows="10"></textarea>

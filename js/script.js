@@ -30,9 +30,11 @@ function z_rep(){
 }
 
 function z_xml(){
-  var target = $('#target').val();
-  var title = $('#title').val();
-  $.post('./inc/xml.php',{xml:target,title:title},function(){
+  var target =  $('#target').val();
+  var title =   $('#title').val();
+  var start =   $('#start').val();
+  var pag =     $('#pag').val();
+  $.post('./inc/xml.php',{xml:target,title:title,start:start,pag:pag},function(){
     $('#download').show();
     setTimeout(unDownload,5000);
     });
